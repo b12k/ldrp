@@ -1,4 +1,4 @@
-# Local reverse proxy
+# Local Developement Reverse Proxy
 
 ## Why:
 
@@ -12,7 +12,7 @@ Used to proxy `*.localhost` subdomain to respective ports.
 ### Install:
 ```bash
 > cd $YOUR_AWESOME_FOLDER
-> git clone 
+> git clone git@github.com:b12k/ldrp.git .
 > docker-compose up -d
 ```
 Open: [http://localhost](http://localhost)
